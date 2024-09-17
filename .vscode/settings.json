@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "lv_examples.h": "c",
+        "lv_demo_benchmark.h": "c",
+        "lv_demos.h": "c",
+        "lv_example_get_started.h": "c",
+        "lv_example_layout.h": "c",
+        "lv_example_grid.h": "c"
+    }
+}
