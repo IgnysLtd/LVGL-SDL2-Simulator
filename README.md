@@ -1,4 +1,4 @@
-# LVGL With SDL2 Simulator
+# LVGL With SDL2 Simulator for Windows
 
 Requirements:
 
@@ -8,11 +8,9 @@ Requirements:
   - Download the latest or version you want, used here was 14.2.0
   - Unzip and manually add to system path
 - [Make version 4.4.1](https://ftp.gnu.org/gnu/make/)
-  - You are looking for `make-4.4.1.tar.gz  2023-02-26 15:06    2.2M`
-  - to unzip you need to use `tar`
-    - `tar -xvxf make-4.4.tar.gz -C "C:PATH\To\Folder"`
-    - Manually add this to system path
-- Git
+  - We are using Chocolatey to install make
+    - Run Windows Power Shell as administrator and run the `installChocolatey.cmd`
+    - Then Command `choco install make`
 
 ## Getting Started
 
