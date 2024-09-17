@@ -3,7 +3,7 @@
 Requirements:
 
 - [cmake version 3.10](https://cmake.org/download/)
-  - download the latest version msi file extension and rn the installer it will add cmake to your system path
+  - download the latest version msi file extension and run the installer it will add cmake to your system path
 - [MinGW](https://winlibs.com/)
   - Download the latest or version you want, used here was 14.2.0
   - Unzip and manually add to system path
