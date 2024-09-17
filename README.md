@@ -2,15 +2,21 @@
 
 Requirements:
 
-- cmake version 3.10
-- MinGW
+- [cmake version 3.10](https://cmake.org/download/)
+  - download the latest version msi file extension and rn the installer it will add cmake to your system path
+- [MinGW](https://winlibs.com/)
+  - Download the latest or version you want, used here was 14.2.0
+  - Unzip and manually add to system path
+- [Make version 4.4.1](https://ftp.gnu.org/gnu/make/)
+  - You are looking for `make-4.4.1.tar.gz  2023-02-26 15:06    2.2M`
+  - to unzip you need to use `tar`
+    - `tar -xvxf make-4.4.tar.gz -C "C:PATH\To\Folder"`
+    - Manually add this to system path
 - Git
 
 ## Getting Started
 
-- `git clone https://github.com/IgnysLtd/LVGL-SDL2-Simulator.git`
-- We have included the LVGL as a submodule so we will need to init the submodule after we clone this repo
-- `git submodule update --init`
+- `git clone --recurse-submodules https://github.com/IgnysLtd/LVGL-SDL2-Simulator.git`
 
 ## SDL2 Dependency
 
