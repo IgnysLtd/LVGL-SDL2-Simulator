@@ -3,10 +3,15 @@
 Requirements:
 
 - [cmake version 3.10](https://cmake.org/download/)
-  - download the latest version msi file extension and run the installer it will add cmake to your system path
+  - Download the latest version msi file extension and run the installer it will add cmake to your system path
 - [MinGW](https://winlibs.com/)
   - Download the latest or version you want, used here was 14.2.0
   - Unzip and manually add to system path
+    - In windows search, search for `edit the system environment`
+    - Click `Environmental Variables`
+    - In the `User` section double click `Path`
+    - Click New
+    - Copy the full system path from extracted package similar to this `C:\Users\MyName\MinGw\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64ucrt-12.0.0-r1\mingw64\bin` to the highlighted field
 - [Make version 4.4.1](https://ftp.gnu.org/gnu/make/)
   - We are using Chocolatey to install make
     - Run Windows Power Shell as administrator and run the `installChocolatey.cmd`
@@ -38,7 +43,7 @@ What we did for you:
 
 ## Build the Project
 
-Commands from the base directory of the project
+Commands from the base directory of the project executed in order
 
 - `mkdir build`
 - `mkdir bin`
